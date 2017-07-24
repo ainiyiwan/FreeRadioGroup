@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    tools:context="sbingo.demo.MainActivity">
+
+
+    <sbingo.freeradiogroup.FloatingLinearlayout
+        android:id="@+id/fll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/black_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:autoBack="true"
+        app:moveable="true">
+
+        <TextView
+            android:id="@+id/rb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_1"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/rb_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_2"
+            android:textColor="@color/white"/>
+
+
+    </sbingo.freeradiogroup.FloatingLinearlayout>
+
+    <sbingo.freeradiogroup.FloatingLinearlayout
+        android:id="@+id/fll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:background="@mipmap/xiaojin"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:autoBack="true"
+        app:moveable="true"/>
+
+</RelativeLayout>
